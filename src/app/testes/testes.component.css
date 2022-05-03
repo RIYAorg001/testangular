@@ -1,0 +1,139 @@
+.testes{
+
+
+
+    margin: 0 0 2em 0;
+
+    list-style-type: none;
+
+    padding: 0;
+
+    width: 15em;
+
+   }
+
+    .testes li {
+
+    display: flex;
+
+    }
+
+    .testes button {
+
+    flex: 1;
+
+    cursor: pointer;
+
+    position: relative;
+
+    left: 0;
+
+    background-color: rgb(158, 155, 232);
+
+    margin: .5em;
+
+    padding: 0;
+
+    border-radius: 4px;
+
+    display: flex;
+
+    align-items: stretch;
+
+    height: 1.8em;
+
+    }
+
+   
+
+    .testes button:hover {
+
+    color:#071f2b;
+
+    background-color: #aa6565;
+
+    left: .1em;
+
+    }
+    .testes button:active{
+
+   
+
+        background-color: #b14646;
+  
+        color: white;
+  
+     
+  
+      }
+  
+     
+  
+      .testes button.selected{
+  
+      background-color: #e07575;
+  
+      color:white;
+  
+     
+  
+      }
+  
+     
+  
+      .testes button.selected:hover{
+  
+        background-color: #160e0e;
+  
+        color:white;
+  
+     
+  
+      }
+  
+     
+  
+      .testes button.selected:active{
+  
+      background-color: rgb(131, 92, 92);
+  
+      color: white;
+  
+     
+  
+      }
+      .testes .badge {
+
+   
+
+        display: inline-block;
+    
+        font-size:large;
+    
+        color: white;
+    
+        padding: 0.8em 0.7em 0 0.7em;
+    
+        background-color: #2b435d;
+    
+        line-height: 1em;
+    
+        margin-right: .8em;
+    
+        border-radius: 4px 0 0 4px;
+    
+        }
+    
+       
+    
+        .testes .name{
+    
+       
+    
+        align-self: center;
+    
+       
+    
+       
+    
+        }

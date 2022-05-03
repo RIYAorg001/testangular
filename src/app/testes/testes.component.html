@@ -1,0 +1,17 @@
+<h2>My tests</h2>
+
+<ul class="testes">
+
+    <li *ngFor="let test of testes">
+
+        <a routerLink = "/detail/{{test.id}}">
+
+        <span class="badge">{{test.id}}</span>{{test.name}}
+
+        </a>
+
+    </li>
+
+</ul>
+
+<app-test-detail [test]="selectedTest"></app-test-detail>

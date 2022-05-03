@@ -1,1 +1,101 @@
 /* You can add global styles to this file, and also import other style files */
+h1{
+
+    color: rgb(231, 200, 27);
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 350%;
+
+}
+
+h2, h3{
+
+
+
+    color:rgb(234, 163, 9);
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 250%;
+
+    font-weight: lighter;
+
+    }
+
+   
+
+    body{
+
+    margin: 4em;
+
+   
+
+    }
+
+   
+
+    body, input[type="text"], button{
+
+    color:rgb(112, 87, 15);
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+   
+
+    }
+    button{
+
+        background-color: rgba(203, 86, 86, 0.728);
+    
+        border: none;
+    
+        border-radius: 4px;
+    
+        cursor:pointer;
+    
+        color: rgb(11, 10, 10);
+    
+        font-size: 2.1rem;
+    
+        padding: 1rem;
+    
+        margin-right: 1rem;
+    
+        margin-bottom: 1rem;
+    
+        margin-top: 1rem;
+    
+       
+    
+        }
+    
+       
+    
+        button:hover{
+    
+        background-color: rgb(21, 20, 20);
+    
+        color: #843f3f;
+    
+        }
+    
+       
+    
+        button:disabled{
+    
+        background-color: rgb(246, 202, 60);
+    
+        color: rgb(252, 247, 247);
+    
+        cursor: auto;
+    
+        }
+    
+       
+    
+        * {
+    
+        font-family: Arial, Helvetica, sans-serif;
+    
+        }
